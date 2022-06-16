@@ -1,7 +1,7 @@
 const clientID = 'a6ef67b0fb654fd7b43f07d6de3b1b4e';
 // const clientSecret = '49ae1e107cf641a4a0edff132bd2b88e';
 
-const redirectURI = 'http://localhost:3000/';
+const redirectURI = 'https://jamming-all-day.netlify.app/';
 
 let accessToken;
 
@@ -11,7 +11,6 @@ let Spotify = {
 
     getAccessToken(){
        if(accessToken){
-       
            return accessToken
        } else {
 
